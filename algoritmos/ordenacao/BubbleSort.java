@@ -1,3 +1,5 @@
+package algoritmos.ordenacao;
+
 class Ordenacao {
     private int[] arrayParaOrdenar;
 
@@ -6,7 +8,7 @@ class Ordenacao {
     }
 
     public void ordena() {
-        // Utilizando o algoritmo Bubble Sort conforme apresentado na questão
+        // Utilizando o algoritmo Bubble Sort
         int tamanho = arrayParaOrdenar.length;
         for (int i = 0; i < tamanho - 1; i++) {
             for (int j = 0; j < tamanho - i - 1; j++) {
@@ -40,3 +42,4 @@ public class BubbleSort {
         System.out.println(a);
     }
 }
+
